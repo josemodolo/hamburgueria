@@ -19,11 +19,9 @@ header{
 
 .container-central{
     width: 100%;
-    max-width: 1200px;
+    max-width: 60%;
     margin: 0;
     padding: 0;
-    
-   
 }
 
 /* primeira div css */
@@ -53,8 +51,7 @@ header{
     height: 50%;
     align-items: center;
     justify-content: center;
-    display: flex;
-    
+    display: flex;    
 }
 
 .text-container-f p {
@@ -90,20 +87,76 @@ header{
 .img-f-div{
     width: 100%;
 }
-
 /* primeira div css */
 
 /* segunda div css */
-
-
-.second-div{
+.container2{
+    display: flex;
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;   
-    position: relative;
+    background-image: url('/src/fundo_sobrenos.png');
+    background-size: cover;       /* Ajusta a imagem para cobrir toda a div */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat; 
 }
 
-.image-s-div{
+.container2-f-div{    
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;      
+}
+
+.container2-s-div{
+    /* border: 1px solid black; */
+    max-width: 500px;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container2-s-div h1{
+    color: aliceblue;
+}
+
+.container2-s-div p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cooker{
+    width: 49.5%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.backfood{  
+    height: auto;  
+    width: 46%;
+    filter: blur(2px);
+    margin-right: 200px;
+    
+}    
+/* segunda div css */
+
+/* terceira div */
+.burger-div{
+    display: flex;
+
+}
+
+.burger-div div{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.burger-div img{
     width: 100%;
 }
